@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #222, #111);
+}
+
+.logo img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.cta-button {
+    background-color: #00ffcc;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #00d3a1;
+}
+
+.features {
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #666;
+}
